@@ -13,7 +13,7 @@ Currently, the library assumes your HC-12 is connected to SoftwareSerial and you
 - Support for HC-12 hardware serial (on MEGA and other boards)
 - Checksums
 ### Example
-```
+```c++
 // simpletest.ino
 // Simple example for the HC12 library
 

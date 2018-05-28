@@ -11,9 +11,10 @@ HC12::HC12(SoftwareSerial *sws, uint8_t setPin, int baud = 9600) {
   this->setOutput(sws);
 }
 
-void HC12::setOutput(SoftwareSerial *sws){
+bool HC12::setOutput(SoftwareSerial *sws){
   this->output = sws;
   useSWSerial = true;
+  return true;
 }
 
 //@todo: Verify if HC-12 is responding by sending AT and receiving OK

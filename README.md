@@ -1,12 +1,17 @@
 # HC-12
-Arduino library for HC-12 wireless transceiver module
+Arduino library for the HC-12 wireless transceiver module.  
+Based on [Mark J. Hughes' code](https://www.allaboutcircuits.com/projects/understanding-and-implementing-the-hc-12-wireless-transceiver-module/ "AllAboutCircuits.com")  
+Currently, the library assumes your HC-12 is connected to SoftwareSerial and you will debug via the HardwareSerial.
 
 ### Features
 - Automatic message resending
 - Automatic AT command detection and execution (SET pin to LOW)
 - Remote AT command execution (command executes on both sides)
 - Send text message or long int arrays
-
+##### To Do:
+- Support for longer messages
+- Support for HC-12 hardware serial (on MEGA and other boards)
+- Checksums
 ### Example
 ```
 // simpletest.ino

@@ -1,0 +1,23 @@
+{
+  "name": "HC-12",
+  "keywords": "hc-12, hc12, transciever, serial, wireless",
+  "description": "Arduino library for the HC-12 wireless transceiver module"
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/honzakucera/HC-12.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Jan Kucera",
+      "maintainer": true
+    },
+    {
+      "name": "Mark J. Hughes"
+    }
+  ],
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}

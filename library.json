@@ -1,6 +1,6 @@
 {
 	"name": "HC-12",
-	"keywords": "hc-12, hc12, transciever, serial, wireless",
+	"keywords": "hc-12, hc12, transceiver, serial, wireless",
 	"description": "Arduino library for the HC-12 wireless transceiver module",
 	"repository": {
 		"type": "git",

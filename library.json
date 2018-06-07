@@ -16,7 +16,7 @@
 			"url": "https://www.allaboutcircuits.com/projects/understanding-and-implementing-the-hc-12-wireless-transceiver-module/"
 		}
 	],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"frameworks": "arduino",
 	"platforms": "*"
 }
